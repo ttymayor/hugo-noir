@@ -1,0 +1,244 @@
+baseURL = "https://example.com"
+languageCode = 'en-us'
+title = 'Your Name'
+theme = 'hugo-noir'
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
+
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+name = "Your Name"
+location = "Your Location"
+description = "Your bio goes here..."
+profile_image = "/images/profile.jpg"
+discord = "yourusername"
+github = "https://github.com/yourusername"
+email = "your.email@example.com"
+twitter = "https://twitter.com/yourusername"
+medium = "https://medium.com/@yourusername"
+linkedin = "https://linkedin.com/in/yourusername"
+instagram = "https://instagram.com/yourusername"
+
+[[params.experience]]
+company = "Company One"
+role = "Senior Role"
+period = "Jan 2023 - Present"
+logo = "/images/company/company1.png"
+description = "Brief description of your role and responsibilities."
+responsibilities = [
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement"
+]
+
+[[params.experience]]
+company = "Company Two"
+role = "Junior Role"
+period = "Jan 2022 - Dec 2022"
+logo = "/images/company/company2.png"
+description = "Brief description of your role and responsibilities."
+responsibilities = [
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement"
+]
+
+[[params.experience]]
+company = "Company Three"
+role = "Intern"
+period = "Jun 2021 - Dec 2021"
+logo = "/images/company/company3.png"
+description = "Brief description of your role and responsibilities."
+responsibilities = [
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement",
+    "Key responsibility with specific achievement"
+]
+
+[[params.experience]]
+    company = "GitHub"
+    role = "Open Source Contributor"
+    period = "Jan 2023 - Present"
+    description = "Contributing to open source projects"
+    github_username = "yourusername"
+
+[[params.projects]]
+    title = "Project One"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, React, TensorFlow)"
+    image = "/images/projects/project1.png"
+    link = "https://github.com/yourusername/project1"
+
+[[params.projects]]
+    title = "Project Two"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., JavaScript, Node.js, MongoDB)"
+    image = "/images/projects/project2.png"
+    link = "https://github.com/yourusername/project2"
+
+[[params.projects]]
+    title = "Project Three"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, PyTorch, Computer Vision)"
+    image = "/images/projects/project3.png"
+    link = "https://github.com/yourusername/project3"
+
+[[params.projects]]
+    title = "Project Four"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, NLP, LangChain)"
+    image = "/images/projects/project4.png"
+    link = "https://github.com/yourusername/project4"
+
+[[params.projects]]
+    title = "Project Five"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, PyTorch, Deep Learning)"
+    image = "/images/projects/project5.jpg"
+    link = "https://github.com/yourusername/project5"
+
+[[params.projects]]
+    title = "Project Six"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, NLP, API Integration)"
+    image = "/images/projects/project6.png"
+    link = "https://github.com/yourusername/project6"
+
+[[params.projects]]
+    title = "Project Seven"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, OpenCV, CUDA)"
+    image = "/images/projects/project7.png"
+    link = "https://github.com/yourusername/project7"
+
+[[params.projects]]
+    title = "Project Eight"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, R, Data Analysis)"
+    image = "/images/projects/project8.png"
+    link = "https://github.com/yourusername/project8"
+
+[[params.projects]]
+    title = "Project Nine"
+    description = "Brief description of the project and what it does."
+    tech = "Technologies used (e.g., Python, Flask, MongoDB)"
+    image = "/images/projects/project9.jpg"
+    link = "https://github.com/yourusername/project9"
+
+[[params.blogs]]
+    title = "Blog Post One"
+    date = "2023-03-01"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post1"
+
+[[params.blogs]]
+    title = "Blog Post Two"
+    date = "2023-02-15"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post2"
+
+[[params.blogs]]
+    title = "Blog Post Three"
+    date = "2023-02-01"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post3"
+
+[[params.blogs]]
+    title = "Blog Post Four"
+    date = "2023-01-15"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post4"
+
+[[params.blogs]]
+    title = "Blog Post Five"
+    date = "2023-01-01"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post5"
+
+[[params.blogs]]
+    title = "Blog Post Six"
+    date = "2022-12-15"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post6"
+
+[[params.blogs]]
+    title = "Blog Post Seven"
+    date = "2022-12-01"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post7"
+
+[[params.blogs]]
+    title = "Blog Post Eight"
+    date = "2022-11-15"
+    summary = "Brief summary of what the blog post is about."
+    tags = ["Tag1", "Tag2", "Tag3"]
+    content = """
+    Short excerpt or introduction to the blog post...
+    """
+    link = "https://yourblog.com/post8"
+
+[[params.voluntary]]
+role = "Volunteer"
+organization = "Organization Name"
+period = "2020 - Present"
+description = "Brief description of your volunteer work and responsibilities."
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
