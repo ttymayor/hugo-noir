@@ -52,6 +52,7 @@
 <p align="center">
   <em>Projects page displaying work with technology tags and descriptions</em>
 </p>
+
 <p align="center">
   <kbd><img src="https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/blogs.png" alt="Blogs Page" title="Blogs Page"/></kbd>
 </p>
@@ -59,6 +60,7 @@
 <p align="center">
   <em>Blogs page displaying blogs with tags and a short descriptions</em>
 </p>
+
 ---
 
 ## Features 💥
@@ -393,4 +395,6 @@ Dark Noir is designed with performance in mind, ensuring fast loading times and 
 
 ## License 📄
 
-This theme is released under the MIT License. See the [LICENSE](https://github.com/prxshetty/hugo-noir/blob/main/LICENSE) file for details. 
+This theme is released under the [MIT License](https://github.com/prxshetty/hugo-noir/blob/main/LICENSE). 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/prxshetty/hugo-noir/blob/main/LICENSE) 
