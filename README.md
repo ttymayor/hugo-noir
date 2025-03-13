@@ -29,6 +29,36 @@
   <em>Blog post view with optimal readability</em>
 </p>
 
+<p align="center">
+  <kbd><img src="https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/contact.png" alt="Contact Page" title="Contact Page"/></kbd>
+</p>
+
+<p align="center">
+  <em>Contact page with social media links and clean layout</em>
+</p>
+
+<p align="center">
+  <kbd><img src="https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/experience.png" alt="Experience Page" title="Experience Page"/></kbd>
+</p>
+
+<p align="center">
+  <em>Experience page showcasing professional background with statistics</em>
+</p>
+
+<p align="center">
+  <kbd><img src="https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/project.png" alt="Projects Page" title="Projects Page"/></kbd>
+</p>
+
+<p align="center">
+  <em>Projects page displaying work with technology tags and descriptions</em>
+</p>
+<p align="center">
+  <kbd><img src="https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/blogs.png" alt="Blogs Page" title="Blogs Page"/></kbd>
+</p>
+
+<p align="center">
+  <em>Blogs page displaying blogs with tags and a short descriptions</em>
+</p>
 ---
 
 ## Features 💥
