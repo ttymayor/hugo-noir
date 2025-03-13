@@ -44,6 +44,11 @@
 - **Social Icons**: Easy configuration for social media links
 - **Custom Styling**: Simple customization through CSS variables
 - **Featured Content**: Support for featured posts on the homepage
+- **Tech Stack Carousel**: Showcase your skills with a smooth, interactive tech stack carousel
+- **Single Page Portfolio**: Everything in one place - about, experience, projects, and contact sections
+- **Inline SVGs**: Uses inline SVG icons for faster loading and better performance
+- **Mobile-First Design**: Fully optimized for mobile devices with touch-friendly interactions
+- **Local Clock**: Real-time clock display using minimal JavaScript for accurate time
 
 ---
 
