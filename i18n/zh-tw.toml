@@ -42,3 +42,18 @@ other = "發行日期"
 
 [local_time]
 other = "Taiwan Time"
+
+[not_found_message]
+other = "找不到您要找的頁面。"
+
+[redirect_message]
+other = "將在"
+
+[seconds]
+other = "秒後，回到上一頁"
+
+[back_to_home]
+other = "回到首頁"
+
+[back_to_prev]
+other = "回上一頁"

@@ -42,3 +42,18 @@ other = "Issued"
 
 [local_time]
 other = "Local Time"
+
+[not_found_message]
+other = "The page you are looking for cannot be found."
+
+[redirect_message]
+other = "You are being redirected to previous page in"
+
+[seconds]
+other = "seconds"
+
+[back_to_home]
+other = "Back to Home"
+
+[back_to_prev]
+other = "Back to Previous Page"
