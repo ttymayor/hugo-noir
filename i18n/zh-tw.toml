@@ -1,0 +1,44 @@
+[what_i_work_with]
+other = "我使用的技術"
+
+[about]
+other = "關於"
+
+[experience]
+other = "經驗"
+
+[projects]
+other = "作品"
+
+[blogs]
+other = "文章"
+
+[contact]
+other = "聯絡我"
+
+[view_all]
+other = "查看全部"
+
+[voluntary]
+other = "志工"
+
+[learn_more]
+other = "了解更多"
+
+[voluntary_work]
+other = "志工經驗"
+
+[certifications]
+other = "證書檢定"
+
+[honors_and_awards]
+other = "榮譽與獎項"
+
+[developer_profiles]
+other = "開發者檔案"
+
+[issued]
+other = "發行日期"
+
+[local_time]
+other = "Taiwan Time"
