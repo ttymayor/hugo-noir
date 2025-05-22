@@ -1,7 +1,15 @@
-# Hugo Noir Theme
+<h1 align=center>Hugo Noir | <a href="https://pranamshetty.dev" rel="nofollow">Demo</a></h1>
+
+<h4 align=center>🌑 Dark | ⚪️ Light | 🔍 Minimalist | 📱 Responsive | ⚡ Fast</h4>
+<br>
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/prxshetty/hugo-noir)](https://github.com/prxshetty/hugo-noir/releases/latest)
 [![View Changelog](https://img.shields.io/badge/changelog-view-blue)](CHANGELOG.md)
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.92.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.92.0)
+[![GitHub stars](https://img.shields.io/github/stars/prxshetty/hugo-noir?style=social)](https://github.com/prxshetty/hugo-noir/stargazers)
+[![Hugo Themes](https://img.shields.io/badge/Hugo--Themes-@Dark_Noir-blue)](https://themes.gohugo.io/themes/hugo-noir/)
+
+---
 
 A clean, minimalistic theme for Hugo with a focus on readability, simplicity, and multilingual support.
 
