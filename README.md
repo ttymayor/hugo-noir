@@ -167,6 +167,7 @@ git submodule update --init --recursive
         [[experience]]
           role = "Senior Developer"
           company = "Tech Solutions Inc."
+          company_link = "https://www.techsolutions.com" # Add company URL here
           period = "Jan 2020 - Present"
           country = "USA" # New field for region/country
           # description = "Longer description of the role..." # Optional detailed description
@@ -180,6 +181,7 @@ git submodule update --init --recursive
         [[experience]]
           role = "Software Engineer"
           company = "Innovate LLC"
+          # company_link = "" # Omit or leave blank if no link
           period = "Jun 2018 - Dec 2019"
           country = "Canada"
           responsibilities = [
@@ -189,6 +191,14 @@ git submodule update --init --recursive
           technologies = ["Python", "Django", "PostgreSQL"]
         ```
         Ensure you have a similar file for each language you support (e.g., `data/es/experience.toml`). The `experience.html` layout in the theme will automatically pick up the data for the current language.
+
+        **Adding Company Links:**
+        This site supports displaying clickable links for companies in the "Experience" section.
+        - To add a link, include the `company_link` field with the URL in the respective experience entry within your `data/<language_code>/experience.yaml` (or `.json`/`.toml`) file.
+        - If a `company_link` is provided, the company name will be a hyperlink. Otherwise, it will be plain text.
+        - Styling: Links match the site's theme (grey, turning blue on hover). An external link icon is automatically added.
+        - No template changes are needed; the layouts already support this.
+        Remember to replace `<language_code>` with the actual language code (e.g., `en`, `es`, `fr`).
 
 ## Content Structure
 
