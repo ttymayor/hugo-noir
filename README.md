@@ -49,7 +49,7 @@ Here's a glimpse of the theme in both light and dark modes:
 ![Hugo Noir Projects Light Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/project_light.png)
 
 **Experience Page (Dark Mode):**
-![Hugo Noir Experience Dark Mode](https://raw.githubusercontent.com/prxshetty/huno-noir/main/images/experience_dark.png)
+![Hugo Noir Experience Dark Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/experience_dark.png)
 
 **Experience Page (Light Mode):**
 ![Hugo Noir Experience Light Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/experience_light.png)
