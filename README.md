@@ -3,9 +3,11 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/prxshetty/hugo-noir)](https://github.com/prxshetty/hugo-noir/releases/latest)
 [![View Changelog](https://img.shields.io/badge/changelog-view-blue)](CHANGELOG.md)
 
+A clean, minimalistic theme for Hugo with a focus on readability, simplicity, and multilingual support.
+
 ![Hugo Noir Screenshot](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/screenshot.png)
 
-A clean, minimalistic theme for Hugo with a focus on readability, simplicity, and multilingual support.
+
 
 ## Features
 
@@ -27,14 +29,14 @@ A clean, minimalistic theme for Hugo with a focus on readability, simplicity, an
 ## Light & Dark Mode Showcase
 
 Here's a glimpse of the theme in both light and dark modes:
+**Dark Mode (Primary Screenshot):**
+
+![Hugo Noir Dark Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/screenshot.png)
 
 **Light Mode:**
 
 ![Hugo Noir Light Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/home_light.png)
 
-**Dark Mode (Primary Screenshot):**
-
-![Hugo Noir Dark Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/screenshot.png)
 
 ## Installation
 
