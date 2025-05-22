@@ -43,7 +43,7 @@ Here's a glimpse of the theme in both light and dark modes:
 ![Hugo Noir Light Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/home_light.png)
 
 **Projects Page (Dark Mode):**
-![Hugo Noir Projects Dark Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/project_dark.png)
+![Hugo Noir Projects Dark Mode](https://raw.githubusercontent.com/pranamshetty/hugo-noir/main/images/project_dark.png)
 
 **Projects Page (Light Mode):**
 ![Hugo Noir Projects Light Mode](https://raw.githubusercontent.com/prxshetty/hugo-noir/main/images/project_light.png)
