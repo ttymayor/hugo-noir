@@ -194,7 +194,7 @@ git submodule update --init --recursive
 
         **Adding Company Links:**
         This site supports displaying clickable links for companies in the "Experience" section.
-        - To add a link, include the `company_link` field with the URL in the respective experience entry within your `data/<language_code>/experience.yaml` (or `.json`/`.toml`) file.
+        - To add a link, include the `company_link` field with the URL in the respective experience entry within your `data/<language_code>/experience.yaml` (or `.json`/`.toml`) file. For example, you would update `data/en/experience.yaml`, `data/es/experience.yaml`, and `data/fr/experience.yaml` if you support English, Spanish, and French respectively.
         - If a `company_link` is provided, the company name will be a hyperlink. Otherwise, it will be plain text.
         - Styling: Links match the site's theme (grey, turning blue on hover). An external link icon is automatically added.
         - No template changes are needed; the layouts already support this.
