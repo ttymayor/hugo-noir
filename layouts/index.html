@@ -375,8 +375,8 @@
             <h2 class="text-2xl md:text-4xl font-bold">{{ T "projectsTitle" }}</h2>
         </div>
         <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
-            {{ $projectsData := index site.Data .Language.Lang "projects" }}
-            {{ range first 2 $projectsData.projects }}
+            {{ with $projectsData := index site.Data .Language.Lang "projects" }}
+            {{ range first 2 .projects }}
             <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
                 <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
                     <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
@@ -405,6 +405,7 @@
                 </div>
             </div>
             {{ end }}
+            {{ end }}
             <div class="flex justify-center mt-4 md:mt-8">
                 <a href="{{ "projects/" | absLangURL }}" class="text-blue-500 hover:text-blue-400 transition-colors duration-200 text-sm md:text-lg">{{ T "viewAll" }}</a>
             </div>
@@ -417,8 +418,8 @@
             <h2 class="text-4xl font-bold">{{ T "blogsTitle" }}</h2>
         </div>
         <div class="space-y-8 max-w-3xl mx-auto">
-            {{ $blogsData := index site.Data .Language.Lang "blogs" }}
-            {{ range first 3 $blogsData.blogs }}
+            {{ with $blogsData := index site.Data .Language.Lang "blogs" }}
+            {{ range first 3 .blogs }}
             <div class="group">
                 <p class="text-gray-400 text-sm mb-1">{{ .date }}</p>
                 <a href="{{ .link }}" class="block group" target="_blank">
@@ -431,6 +432,7 @@
                 </a>    
                 <p class="text-gray-400">{{ .summary }}</p>
             </div>
+            {{ end }}
             {{ end }}
         </div>
         <div class="flex justify-center mt-8">
