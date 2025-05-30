@@ -60,9 +60,13 @@
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div class="flex justify-between items-center">
+                {{ $authorData := index site.Data .Language.Lang "author" }}
+                {{ $author := cond (and $authorData $authorData.author) $authorData.author site.Params }}
+                {{ with $author }}
                 <a href="{{ .Site.BaseURL }}" class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-300">
-                    {{ site.Params.name }}
+                    {{ .name }}
                 </a>
+                {{ end }}
                 <!-- Hamburger menu button for mobile -->
                 <button id="mobile-menu-button" class="md:hidden text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

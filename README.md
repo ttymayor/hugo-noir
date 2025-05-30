@@ -162,6 +162,8 @@ git submodule update --init --recursive
     ```toml
     [params]
       name = "Your Name"
+      location = "Your Location"
+      description = "Description ..."
       profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
       # Social links
       github = "https://github.com/yourusername"
@@ -175,12 +177,18 @@ git submodule update --init --recursive
 
     For language-specific information like author details and your professional experience, this theme utilizes Hugo's data files. You should create these in your site's `data` directory, typically organized by language.
 
-    *   **Author Information:** Create files like `data/en/author.yaml`, `data/es/author.yaml`. Example for `data/en/author.yaml`:
-        ```yaml
-        name: "Your Name (English)"
-        bio: "Your bio in English."
-        social:
-          github: "https://github.com/yourusername"
+    *   **Author Information:** Create files like `data/en/author.toml`, `data/es/author.toml`. Example for `data/en/author.toml`:
+        ```toml
+        [author]
+          name = "Your Name"
+          location = "Your Location"
+          description = "Description ..."
+          profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+          # Social links
+          github = "https://github.com/yourusername"
+          twitter = "https://twitter.com/yourusername"
+          linkedin = "https://linkedin.com/in/yourusername"
+          email = "your.email@example.com"
           # ... other social links ...
         ```
 
