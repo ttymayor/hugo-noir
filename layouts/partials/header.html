@@ -1,15 +1,5 @@
 {{ $currentPage := . }}
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0RTF18BT4"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-C0RTF18BT4');
-    </script>
-    
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -60,9 +50,13 @@
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div class="flex justify-between items-center">
-                <a href="{{ .Site.BaseURL }}" class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-300">
-                    {{ site.Params.name }}
+                {{ $authorData := index site.Data .Language.Lang "author" }}
+                {{ $author := cond (and $authorData $authorData.author) $authorData.author site.Params }}
+                {{ with $author }}
+                <a href="{{ absLangURL .Site.BaseURL }}" class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-300">
+                    {{ .name }}
                 </a>
+                {{ end }}
                 <!-- Hamburger menu button for mobile -->
                 <button id="mobile-menu-button" class="md:hidden text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,7 +78,7 @@
                 <!-- Language Switcher - Desktop -->
                 <div class="language-switcher ml-4">
                     <div class="language-switcher-btn text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 p-2 rounded-md">
-                        {{ if eq .Language.Lang "en" }}EN{{ else if eq .Language.Lang "es" }}ES{{ else if eq .Language.Lang "fr" }}FR{{ end }}
+                        {{ .Language.Lang | upper }}
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="m6 9 6 6 6-6"/>
                         </svg>
@@ -125,7 +119,7 @@
                     <!-- Language Switcher - Mobile -->
                     <div class="language-switcher">
                         <div class="language-switcher-btn text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 flex items-center p-2 rounded-md">
-                            {{ if eq .Language.Lang "en" }}EN{{ else if eq .Language.Lang "es" }}ES{{ else if eq .Language.Lang "fr" }}FR{{ end }}
+                            {{ .Language.Lang | upper }}
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="m6 9 6 6 6-6"/>
                             </svg>
